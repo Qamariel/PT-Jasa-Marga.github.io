@@ -1,0 +1,145 @@
+
+body, h1, h2, h3, h4, h5, h6, a, a:visited {
+	color: #151515 !important;
+}
+h1, .faux_h1 {
+	font-size: 60px;
+	line-height: 60px;
+}
+html {
+    margin-top: 0 !important;
+    position: static !important;
+}
+
+.print-hidden,
+.noprint,
+.transition-logo,
+#top_nav,
+#canvas_wrapper_background,
+#search_menu,
+#basket,
+#wishlist,
+#menu,
+.page_enquiry_widget,
+#feature_panel_section_nav {
+	display: none !important;
+}
+
+#logo a:before {
+	display: none !important;
+}
+#logo a:after {
+	display: block !important;
+	opacity: 1;
+	display: none !important;
+}
+#logo:after {
+	background: #151515;
+	display: none !important;
+}
+#logo {
+	width: auto;
+}
+#logo a {
+	width: auto;
+	text-indent: 0;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+body,
+.scroll-container .scroll-container-inner,
+.scroll_section,
+.footer {
+	background: #fff !important;
+}
+
+#header {
+	padding: 0 40px;
+	position: static;
+	height: 60px;
+	opacity: 1 !important;
+	transform: none !important;
+}
+
+.footer .inner {
+	padding: 0 40px;
+}
+.footer {
+	visibility: visible !important;
+	position: static !important;
+	color: #151515;
+	min-height: 0 !important;
+}
+.footer .inner {
+	border-top: 1px solid #ccc;
+	min-height: 0;
+}
+.faux_footer {
+	display: none !important;
+}
+.footer .credit {
+	color: #151515;
+	position: static;
+	transform: none;
+	text-align: left;
+}
+.footer .credit div {
+	margin: 0 20px 0 0;
+}
+
+.scroll_section.section_index_1 .feature_panels section.panel_index_1 {
+	padding-top: 40px;
+}
+.feature_panels section .panel_heading h2:after {
+	display: none;
+}
+
+.image_list ul li {
+	opacity: 1 !important;
+	transform: none;
+}
+
+.feature_panels section .area_wrapper {
+	padding: 0 40px;
+}
+
+#hero .slide .image,
+#hero .slide .mask,
+#hero .slide .content .scroll,
+#hero .arrow,
+#hero .slide .content .pull_quote {
+	display: none !important;
+}
+#hero {
+	background: #fff;
+	height: auto;
+	position: static !important;
+}
+
+#hero .slide .content {
+	position: static;
+	padding: 0 40px;
+}
+#hero .slide .content .content_header {
+	position: static;
+	transform: none;
+	opacity: 1;
+	padding: 0;
+}
+#hero .slide {
+	position: static !important;
+}
+
+.scroll_section.scroll_section_top {
+	min-height: 0;
+}
+
+#hero .slide .content .content_header h1 {
+	color: #151515 !important;
+}
+
+.hidden-off-screen, .hidden-off-screen #hero {
+	visibility: visible;
+	opacity: 1;
+}
